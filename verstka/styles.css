@@ -1,0 +1,232 @@
+*{
+	/* Universal reset: */
+	margin: auto;
+	padding:0;
+}
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+}
+
+
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+
+	color:#000;
+	background-color:#Efff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Hyperlink Styles: */
+
+footer a,footer a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+footer a:hover{
+	text-decoration:underline;
+}
+
+footer a img{
+	border:none;
+}
+
+/* Headings: */
+
+
+
+.line{
+	/* The dividing line: */
+	height:1px;
+	background-color:#24404c;
+	border-bottom:1px solid #416371;
+	margin:1em 0;
+	overflow:hidden;
+}
+
+article .line{
+	/* The dividing line inside of the article is darker: */
+	background-color:#15242a;
+	border-bottom-color:#204656;
+	margin:1.3em 0;
+}
+
+footer .line{
+	margin:2em 0;
+}
+
+
+/* The clearfix hack to clear the floats: */
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* The navigation styling: */
+
+#page{
+	/*width:960px;*/
+	/*height: 900px;*/
+	margin:0 auto;
+	position:relative;
+}
+
+
+
+/* Footer styling: */
+
+footer #coll{
+	margin:0 0 2em 0;
+	position: relative;
+    top: 0;
+    left: 0;
+    overflow: auto;
+	text-align:none;
+	height:120px;
+	width: 100%;
+	background-color:#0f254e;
+	color:#E2DFE8;
+	text-shadow: 0 2px 1px #333;
+	z-index: 102;
+} 
+
+footer #form_coll {
+
+
+	width: 650px;
+    height: 50px;
+    position: relative;
+    margin: auto;
+	z-index: 103;
+
+}
+footer #form_coll .enjoy-css,
+footer #form_coll .enjoy-css:hover {
+	float: right;
+	position: relative;
+	top:0;
+	right:0;
+	cursor: pointer;
+	padding: 15px 20px;
+	border: none;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font: normal normal bold 16px/normal Verdana, Geneva, sans-serif;
+	color: rgba(255,255,255,0.9);
+	text-align: center;
+	text-overflow: clip;
+	background: rgba(200,206,22,0.9);
+	-webkit-box-shadow: 0 0 6px 1px rgba(0,0,0,0.4) ;
+	box-shadow: 0 0 6px 1px rgba(0,0,0,0.4) ;
+	text-shadow: 1px 0 0 rgba(0,0,0,0.25) ;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	-o-text-overflow: clip;
+}
+footer #form_coll .enjoy-css:hover {
+	background: rgba(158,163,22,0.9);
+}
+footer #form_coll .enjoy-css{
+	background: rgba(200,206,22,0.9);
+}
+
+
+footer #form_coll p{
+
+	font-family: 'Arial', Helvetica, sans-serif;
+	font-size:20px;
+	position: relative;
+	top:40px;
+	left:0;
+
+}
+  
+footer #form_coll b{
+
+	font-family: 'Arial', Helvetica, sans-serif;
+	font-size:30px;
+	position: relative;
+	top:5px;
+	left:8px;
+	
+}
+
+footer #other_info {
+	margin-bottom:30px;
+	text-align:center;
+	font-size:0.825em;
+}
+footer #info {
+	/*margin-top:-2.5em;
+	margin-bottom:2.5em;*/
+	position:relative;
+	z-index: 101;
+	width: 960px;
+	margin-bottom:11em;
+}
+
+footer #info p {
+	color: #251849;
+	border-bottom: 1px solid #bbb;
+}
+footer #info a {
+	color: #9170E7; 
+	text-decoration:none;
+}
+footer #info a:hover {
+	text-decoration:none;
+	color: #240672; 
+}
+
+footer #info li {
+	float:left;
+	list-style:none;
+	padding:0px 25px;
+
+}
+footer #info li ul li {
+	float:none;
+	margin-left: -25px;
+	list-style:none;
+}
+
+footer #other_info p{
+	/*margin-bottom:-2.5em;
+	margin-top:7.5em;*/
+	position:relative;
+	padding:2px 4px;
+}
+footer #other_info a,footer #other_info a:visited{
+	color:#cccccc;
+	background-color:#213e4a;
+	text-align:center;
+	padding:2px 4px;
+	z-index:100;
+	position:relative;
+}
+
+
+footer #other_info a:hover{
+	text-decoration:none;
+	background-color:#142830;
+}
+
+footer #other_info a.by{
+	float:left;
+
+}
+
+footer #other_info a.up{
+	float:right;
+}

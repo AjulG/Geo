@@ -1,0 +1,249 @@
+hgroup{
+	position: relative;
+	top: 0;
+	left: 21px;
+	width: 960px;
+	font-size:1.3em;
+	color:#130142;
+}
+hgroup h1,hgroup h2,hgroup h3{
+	font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	text-shadow:0 1px 1px black;
+}
+
+hgroup h1{
+	/* The logo text */
+	font-size:3.5em;
+	padding:0.5em 0 0;
+	text-transform:uppercase;
+}
+hgroup a,hgroup a:visited {
+	color:#130142;
+	text-decoration:none;
+	outline:none;
+}
+
+hgroup a:hover{
+	text-decoration:none;
+	color:#1e0b4d;
+}
+
+/* Цветовая схема */
+/* Menu bar background color */
+#navigation{
+background: #003366; 
+min-width: 960px;
+}
+
+/* Menu Item text color */
+#nav li a, 
+#nav li a:hover {
+color: #fff; 
+}
+#top_nav li a{
+color: #000; 
+}
+#top_nav li a:hover{
+color: #240672; 
+}
+
+
+/* Menu Item background color on hover */
+#nav li a:hover  {
+background: #395687; 
+}
+#nav li a.active  {
+background: #395687; 
+}
+
+/* Text Shadow*/ 
+#nav li a, 
+#nav li a:hover {
+text-shadow: 0 1px 1px #333; 
+}
+
+/* Search form colors */
+.searchform input, .searchform input:not(:focus){
+color:#B1B1B1; /*search form text color default*/
+background: #fff; /*search form background color default*/
+}
+.searchfield:focus{
+color: #000; /* search form text color after click */
+}
+
+/* /КОНЕЦ Цветовой схемы */
+
+#menu_div{
+clear: both;
+position: relative;
+top: 0;
+left: 0;
+}
+
+#top_menu_div{
+display:block;
+} /* Free space to top specialy for menu */
+
+#navigation {
+position: relative;
+}
+
+#navigation, #menu_div {
+width: 100%;
+min-width: 960px;
+margin: auto; /* Выравниваем по центру */
+padding: 0 !important;
+}
+#top_navigation, #top_menu_div {
+width: 100%;
+padding: 0 !important;
+}
+
+#menu_div, #navigation, #menu, #nav{
+height: 50px; /* menu height */
+}
+
+
+
+#menu {
+width: 960px;
+margin:auto; /*center the menu*/
+padding:0;
+}
+
+#nav{
+width: 960px;
+margin:0;
+padding:0;
+position: relative;
+letter-spacing: 1px;
+font: normal 18px Verdana, Helvetica;
+/*font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;*/
+font-style: normal;
+}
+
+
+#nav li a,#nav li {
+float:left;
+}
+
+ 
+#top_nav {
+float:right;
+position:relative;
+z-index: 1;
+top:20px;
+right: 20px;
+}
+
+#nav li {
+list-style:none;
+position:relative;
+}
+
+#nav li a {
+line-height: 50px;
+padding:0 25px;
+text-decoration:none;
+margin:0;
+/*text-transform:uppercase;*/
+}
+
+#top_nav li a {
+padding:0 5px;
+text-decoration:none;
+margin:0;
+font-family: 'Arial', Helvetica, sans-serif;
+font-size:15px;
+/*text-transform:uppercase;*/
+}
+#top_nav ul {
+padding:5px; 
+}
+#top_nav li {
+display:inline;
+border-left:1px solid #bbb;
+padding:0 2px 0 4px;
+}
+#top_nav   li:first-child{
+border:none;
+}
+
+
+
+
+/*====================
+    Поисковая форма
+====================*/
+
+.searchform {
+position: absolute;
+right: 15px;
+top: 12px;
+display: inline-block;
+zoom: 1;
+*display: inline;
+border: 0;
+padding: 0;
+}
+.searchform input {
+font: normal 12px/100% Arial, Helvetica, sans-serif;
+}
+.searchform .searchfield {
+height: 27px;
+line-height: 27px;
+padding-left: 10px;
+padding-right: 10px;
+width: 150px;
+border: 2px solid #333;
+outline: none;
+-webkit-border-radius: 2em;
+-moz-border-radius: 2em;
+border-radius: 2em;
+-moz-box-shadow: inset 1px 1px 2px #A1A1A1;
+-webkit-box-shadow: inset 1px 1px 2px #A1A1A1;
+box-shadow: inner 1px 1px 2px #A1A1A1;
+}
+
+.searchfield:focus{
+font-weight: 700;
+width: 220px;
+}
+
+.searchfield:not(:focus){
+width: 150px;
+}
+
+
+/*========================
+        Переходы
+========================*/
+
+#top_nav li a:hover,
+#nav li a:hover, {
+-webkit-transition-property:color, background; 
+-webkit-transition-duration: 0.5s, 0.5s; 
+-webkit-transition-timing-function: linear, ease-out;
+}
+
+.searchfield:focus,
+.searchfield:not(:focus){
+-webkit-transition-property:width; 
+-webkit-transition-duration: 0.5s, 0.5s; 
+-webkit-transition-timing-function: linear, ease-out;
+}
+
+#menu_div:hover,
+#navigation:hover,
+#nav li ul a, 
+#menu_div,
+#navigation,
+#top_nav li a, 
+#nav li a, 
+#menu_div:not(:hover), 
+#navigation:not(:hover)
+{
+-webkit-transition-property:opacity; 
+-webkit-transition-duration: 0.5s, 0.5s; /* duration in seconds */
+-webkit-transition-timing-function: linear, ease-out;
+} /* Анимация прозрачности */

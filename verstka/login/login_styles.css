@@ -1,0 +1,146 @@
+#info_tab{
+	min-width:960px;
+	min-height:600px;
+	height:100%;
+	background: #fff url(img/in.jpg)   no-repeat;
+	background-position: top; /* Положение фона */
+	background-size: cover;
+}	
+#block
+{
+	position:relative;
+	width:960px;
+	margin: auto;
+}
+#login h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    color: #0f254e;
+    margin: 0 0 20px 0;
+    letter-spacing: 4px;
+    font: normal 26px Verdana, Helvetica;
+    position: relative;
+}
+
+#login
+{
+    background-color: rgba(225,225,225,0.7);
+	box-shadow: 0 0 15px rgba(0,0,0,0.99);
+    height: 240px;
+    width: 350px;
+    padding: 30px;
+    position: relative;
+	top:80px;
+    z-index: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;  
+}
+
+#login fieldset
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/*--------------------*/
+
+#inputs input
+{
+    background: #f1f1f1;
+    padding: 15px 15px 15px 15px;
+    margin: 0 0 10px 0;
+    width: 353px; 
+    border: 1px solid #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+}
+
+#username
+{
+    background-position: 5px -2px !important;
+}
+
+#password
+{
+    background-position: 5px -52px !important;
+}
+
+#inputs input:focus
+{
+    background-color: #fff;
+    border-color: #e8c291;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #e8c291 inset;
+    box-shadow: 0 0 0 1px #e8c291 inset;
+}
+
+/*--------------------*/
+#actions
+{
+    margin: 25px 0 0 0;
+}
+
+
+#submit:hover,#submit:focus,#submit {
+	float: left;
+	position: relative;
+	top:30px;
+	right:0;
+	cursor: pointer;
+	padding: 8px 15px;
+	border: none;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font: normal 16px Verdana, Helvetica;
+	color: rgba(255,255,255,0.9);
+	text-align: center;
+	text-overflow: clip;
+	background: rgba(200,206,22,0.9);
+	-webkit-box-shadow: 0 0 6px 1px rgba(0,0,0,0.1) ;
+	box-shadow: 0 0 6px 1px rgba(0,0,0,0.1) ;
+	text-shadow: 1px 0 0 rgba(0,0,0,0.25) ;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	-o-text-overflow: clip;
+}
+#submit:hover,#submit:focus {
+	background: rgba(158,163,22,0.9);
+}
+#submit{
+	background: rgba(200,206,22,0.9);
+}
+
+
+#actions a
+{
+    color: #3151A2;    
+    float: right;
+	font-size: 13px;
+    line-height: 95px;
+    margin-left: 10px;
+}
+#actions a:hover
+{
+	color: #240672; 
+}
+
+/*--------------------*/
+
+#back
+{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    color: #999;
+}
+

@@ -1,0 +1,21 @@
+#info_tab{
+	background: #c4d0dc; 
+	height: 56px;	
+	color:#003366;
+	letter-spacing: 1px;
+	font: normal 26px Verdana, Helvetica;
+	position:relative;
+	margin: auto 0;
+
+}
+#widht{
+	width:960px;
+	margin: auto;
+}
+#info_tab p.name{
+	position:relative;
+	float:left;
+	top: 13px;
+	left:70px;
+
+}
